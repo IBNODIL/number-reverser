@@ -1,5 +1,4 @@
-let number = Array.from("2010");
-
-number.reverse();
-
-document.write(number);
+function reverseNumber(){
+  let kiritilganSon= document.getElementById("num").value;
+  alert(Array.from(kiritilganSon).reverse());
+}
